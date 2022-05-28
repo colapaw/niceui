@@ -1,0 +1,63 @@
+{
+  "name": "pnpm-monorepo-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "pnpm starter template for monorepo projects",
+  "homepage": "https://github.com/unoco/pnpm-monorepo-starter#readme",
+  "bugs": "https://github.com/unoco/pnpm-monorepo-starter/issues",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "husky install",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "clear": "rimraf 'packages/*/{node_modules,.turbo}' && rimraf 'apps/*/{node_modules,dist,.turbo}' && rimraf node_modules",
+    "changeset": "changeset",
+    "release": "changeset publish",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unoco/pnpm-monorepo-starter.git"
+  },
+  "keywords": [
+    "pnpm",
+    "monorepo"
+  ],
+  "author": "unoco <hi@unoco.me> (https://unoco.me)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=6"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.2",
+    "@changesets/cli": "^2.18.1",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "git-cz": "^4.8.0",
+    "husky": "^7.0.4",
+    "rimraf": "^3.0.2",
+    "turbo": "^1.0.28"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
+  },
+  "turbo": {
+    "baseBranch": "origin/main",
+    "pipeline": {
+        "build": {
+          "dependsOn": ["^build"],
+          "outputs": ["dist/**", ".next/**"]
+        },
+        "lint": {
+          "outputs": []
+        },
+        "dev": {
+          "cache": false
+        }
+      }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@test/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "private": true,
+  "keywords": [],
+  "author": "unoco <hi@unoco.me> (https://unoco.me)",
+  "license": "MIT"
+}

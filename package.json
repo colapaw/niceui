@@ -27,10 +27,13 @@
     "@changesets/cli": "^2.18.1",
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
+    "@types/node": "^17.0.36",
+    "@vueuse/core": "^8.5.0",
     "git-cz": "^4.8.0",
     "husky": "^7.0.4",
     "rimraf": "^3.0.2",
-    "turbo": "^1.0.28"
+    "turbo": "^1.0.28",
+    "vite": "^2.9.9"
   },
   "config": {
     "commitizen": {
@@ -40,16 +43,21 @@
   "turbo": {
     "baseBranch": "origin/main",
     "pipeline": {
-        "build": {
-          "dependsOn": ["^build"],
-          "outputs": ["dist/**", ".next/**"]
-        },
-        "lint": {
-          "outputs": []
-        },
-        "dev": {
-          "cache": false
-        }
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": [
+          "dist/**",
+          ".next/**"
+        ]
+      },
+      "lint": {
+        "outputs": []
+      },
+      "dev": {
+        "cache": false
       }
+    }
   }
 }

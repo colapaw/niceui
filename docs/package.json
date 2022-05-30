@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "serve": "vitepress serve ."
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/klaw-sync": "^6.0.1",
+    "@unocss/reset": "^0.36.0",
+    "klaw-sync": "^6.0.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-container": "^3.0.0",
+    "unocss": "^0.36.0",
+    "vitepress": "1.0.0-draft.8"
+  }
+}

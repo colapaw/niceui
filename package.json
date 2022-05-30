@@ -1,10 +1,6 @@
 {
-  "name": "pnpm-monorepo-starter",
   "private": true,
-  "version": "1.0.0",
-  "description": "pnpm starter template for monorepo projects",
-  "homepage": "https://github.com/unoco/pnpm-monorepo-starter#readme",
-  "bugs": "https://github.com/unoco/pnpm-monorepo-starter/issues",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -16,15 +12,11 @@
     "release": "changeset publish",
     "commit": "git-cz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unoco/pnpm-monorepo-starter.git"
-  },
+  "packageManager": "pnpm@7.1.6",
   "keywords": [
     "pnpm",
     "monorepo"
   ],
-  "author": "unoco <hi@unoco.me> (https://unoco.me)",
   "license": "MIT",
   "engines": {
     "node": ">=16",

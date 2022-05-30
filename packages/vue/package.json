@@ -1,0 +1,10 @@
+{
+  "name": "@hepta-ui/vue",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "private": true,
+  "keywords": [],
+  "author": "colapaw <hi@colapaw.com> (https://colapaw.com)",
+  "license": "MIT"
+}

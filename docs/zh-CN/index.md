@@ -6,23 +6,21 @@ titleTemplate: Vite & Vue powered static site generator
 
 hero:
   name: Hepta UI
-  text: A vue3.0 components library template
-  tagline: Vue3.0 组件库的次佳实践.
+  text: 一个基于 Vue3.0 的 UI 组件库
+  tagline:
   actions:
     - theme: brand
       text: 开始使用
       link: /zh-CN/components/components/quick-start.html
     - theme: alt
       text: 了解更多
-      link: https://github.com/zouhangwithsweet/vue-components-lib-seed
+      link: https://github.com/colapaw/hepta
 
 features:
-  - title: 🌈 Speedy dev & build
-    details: more fast.
-  - title: 🎆 Customize friendly
-    details: DIY everything.
-  - title: 🍭 Rich scripts
-    details: inspired by esbuild-plugin-vue & vue-dts-gen.
-  - title: 😋 Type friendly
-    details: easy to use
+  - title: 🍭 支持按需引用
+    details:
+  - title: 📖 详尽的文档和示例
+    details:
+  - title: 💪 支持 TypeScript
+    details:
 ---

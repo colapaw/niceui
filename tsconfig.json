@@ -9,7 +9,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "types": ["vite/client", "@types/jest", "@types/node"],
+    "types": ["vite/client", "@types/node"],
     "declaration": true,
     "declarationDir": "dist/types",
     "outDir": "dist",
@@ -24,12 +24,12 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.d.ts",
+    "types/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
     "docs/.vitepress/**/*.ts",
     "docs/.vitepress/**/*.vue"
-  ],
+, "types/components.d.ts", "types/vite-env.d.ts", "types/shims-vue.d.ts"  ],
   "exclude": [
     "node_modules",
   ]

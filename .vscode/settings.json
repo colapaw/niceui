@@ -18,5 +18,8 @@
     "prettier.ignorePath": ".eslintignore",
     // Use Pnpm
     "npm.packageManager": "pnpm",
-    "eslint.packageManager": "pnpm"
+    "eslint.packageManager": "pnpm",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

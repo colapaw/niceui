@@ -14,7 +14,7 @@ hero:
       link: /zh-CN/components/components/quick-start.html
     - theme: alt
       text: 了解更多
-      link: https://github.com/colapaw/hecto-ui
+      link: https://github.com/erthinking/hecto-ui
 
 features:
   - title: 🍭 支持按需引用

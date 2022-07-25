@@ -7,12 +7,11 @@
     "postinstall": "husky install",
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
-    "clear": "rimraf 'packages/*/{node_modules,.turbo}' && rimraf 'apps/*/{node_modules,dist,.turbo}' && rimraf node_modules",
+    "clear": "rimraf 'packages/*/{node_modules,.turbo}' && rimraf 'docs/{node_modules,dist,.turbo}' && rimraf node_modules",
     "changeset": "changeset",
     "release": "changeset publish",
     "commit": "git-cz"
   },
-  "packageManager": "pnpm@7.1.6",
   "keywords": [
     "pnpm",
     "monorepo"

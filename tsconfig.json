@@ -14,7 +14,7 @@
     "declarationDir": "dist/types",
     "outDir": "dist",
     "paths": {
-      "hepta/*": [
+      "hecto/*": [
         "./packages/vue/*"
       ],
       "dist/*": [
@@ -23,10 +23,9 @@
     },
   },
   "include": [
-    "src/**/*.ts",
     "types/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
+    "packages/**/*.ts",
+    "packages/**/*.vue",
     "docs/.vitepress/**/*.ts",
     "docs/.vitepress/**/*.vue"
 , "types/components.d.ts", "types/vite-env.d.ts", "types/shims-vue.d.ts"  ],

@@ -5,7 +5,7 @@ import { MarkdownTransform } from './.vitepress/plugins/md-transform'
 export default {
   resolve: {
     alias: {
-      'hepta/': `${path.resolve(
+      'hecto/': `${path.resolve(
         __dirname,
         '../dist/es'
       )}/`,

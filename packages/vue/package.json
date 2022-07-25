@@ -1,10 +1,17 @@
 {
-  "name": "@hepta-ui/vue",
+  "name": "@hecto-ui/vue",
   "version": "0.0.0",
   "description": "",
   "main": "index.ts",
   "private": true,
   "keywords": [],
-  "author": "colapaw <hi@colapaw.com> (https://colapaw.com)",
-  "license": "MIT"
+  "author": "colapaw <hi@colapaw.com> (https://erthinking.com)",
+  "license": "MIT",
+  "scripts": {
+      "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
 }

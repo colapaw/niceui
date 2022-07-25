@@ -37,13 +37,13 @@ const REPO_BASE_URL = '/'
 
 export default defineConfig({
     base: process.env.VERCEL_BUILD ? '/' : REPO_BASE_URL,
-    title: 'Hepta UI',
-    description: 'Hepta UI\'s docs',
+    title: 'Hecto UI',
+    description: '一个基于 Vue3.0 的 UI 组件库',
     locales: {
         '/': {
             lang: 'zh-CN',
-            title: 'Hepta UI',
-            description: '中文 description'
+            title: 'Hecto UI',
+            description: '中文 description',
         }
     },
     head: [
@@ -113,7 +113,7 @@ export default defineConfig({
         },
 
         editLink: {
-            repo: 'colapaw/hepta',
+            repo: 'colapaw/hecto-ui',
             branch: 'main',
             dir: 'docs',
             text: 'Edit this page on GitHub',
@@ -122,7 +122,7 @@ export default defineConfig({
         socialLinks: [
             {
                 icon: 'github',
-                link: 'https://github.com/colapaw/hepta',
+                link: 'https://github.com/colapaw/hecto-ui',
             },
         ],
 

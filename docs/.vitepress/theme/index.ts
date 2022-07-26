@@ -3,7 +3,7 @@ import Demo from '../components/Demo.vue'
 import DemoWrapper from '../components/DemoWrapper.vue'
 // import 'uno.css'
 // import '@unocss/reset/tailwind.css'
-// import 'hecto-ui/hecto.min.css'
+// import 'havoc-ui/hecto.min.css'
 
 import type { Theme } from 'vitepress'
 

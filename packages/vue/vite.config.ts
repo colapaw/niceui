@@ -9,7 +9,7 @@ const config = defineConfig({
         outDir: path.resolve(__dirname, './dist'),
         lib: {
             entry: path.resolve(__dirname, './index.ts'),
-            name: 'HectoUI'
+            name: 'Havoc UI'
         },
         rollupOptions: {
             context: 'globalThis',
@@ -20,7 +20,7 @@ const config = defineConfig({
                     format: 'umd',
                     exports: 'named',
                     sourcemap: false,
-                    entryFileNames: 'hecto-ui.js',
+                    entryFileNames: 'havoc-ui.js',
                     chunkFileNames: '[name].js',
                     assetFileNames: '[name].[ext]',
                     namespaceToStringTag: true,
@@ -32,7 +32,7 @@ const config = defineConfig({
                     format: 'es',
                     exports: 'named',
                     sourcemap: false,
-                    entryFileNames: 'hecto-ui.esm.js',
+                    entryFileNames: 'havoc-ui.esm.js',
                     chunkFileNames: '[name].js',
                     assetFileNames: '[name].[ext]',
                     namespaceToStringTag: true,
@@ -45,7 +45,7 @@ const config = defineConfig({
     },
     resolve: {
         alias: {
-            'hecto-ui': path.resolve(__dirname, './components')
+            'havoc-ui': path.resolve(__dirname, './components')
         },
         extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue']
     }

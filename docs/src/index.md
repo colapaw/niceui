@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: Hecto UI
+title: Havoc UI
 titleTemplate: Vite & Vue powered static site generator
 
 hero:
-  name: Hecto UI
+  name: Havoc UI
   text: 一个基于 Vue3.0 的 UI 组件库
   tagline:
   actions:
@@ -14,7 +14,7 @@ hero:
       link: /zh-CN/components/components/quick-start.html
     - theme: alt
       text: 了解更多
-      link: https://github.com/erthinking/hecto-ui
+      link: https://github.com/erthinking/havoc-ui
 
 features:
   - title: 🍭 支持按需引用

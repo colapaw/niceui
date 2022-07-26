@@ -112,21 +112,21 @@ export default defineConfig({
             },
         ],
     ],
-    title: 'Hecto UI',
+    title: 'Havoc UI',
     description: '一个基于 Vue3.0 的 UI 组件库',
     themeConfig: {
         logo: '/logo.png',
         nav: nav,
         sidebar: sidebar,
         editLink: {
-            pattern: 'https://github.com/erthinking/hecto-ui/edit/main/docs/:path',
+            pattern: 'https://github.com/erthinking/havoc-ui/edit/main/docs/:path',
             text: 'Edit this page on GitHub',
         },
 
         socialLinks: [
             {
                 icon: 'github',
-                link: 'https://github.com/erthinking/hecto-ui',
+                link: 'https://github.com/erthinking/havoc-ui',
             },
         ],
 
